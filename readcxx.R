@@ -43,7 +43,6 @@
 ##' MyModel <- system.file("ExampleFiles/aa_02/aa_02.rdat", package="admbscaa")
 ##' my.scaa <- readcxx(MyModel)
 ##' names(my.scaa)
-##' Sum.SCAA(my.scaa)
 
 readcxx <- function(ModelDir){
 

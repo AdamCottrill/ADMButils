@@ -31,9 +31,6 @@
 ##' #using the VonB example that comes with ADMB:
 ##' admb.file <- system.file("Examples/Von_Bert.par", package="ADMButils")
 ##' admb <- admb.obj(admb.file)
-##' #file extensions are optional:
-##' admb.file <- gsub(".par$", "",admb.file)
-##' admb <- admb.obj(admb.file)
 ##' 
 admb.obj <-
 function(admb.file){

@@ -132,7 +132,7 @@ write.dat <- function (L, name, factor.warn=TRUE, silent=FALSE)
                      "table") {
               x <- cbind(" ",x)
               cat("#", names(L)[i], "\n", file = file_name, append = TRUE)
-              write.table(x, col = FALSE, row = FALSE, quote = FALSE, 
+              write.table(x, col.names = FALSE, row.names = FALSE, quote = FALSE, 
                           file = file_name, append = TRUE)
               cat("\n", file = file_name, append = TRUE)                        
           #--------------------------------------------------

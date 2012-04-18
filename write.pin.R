@@ -72,7 +72,7 @@ function (L,name)
 					append = TRUE)
 		if (data.class(x) == "matrix") {
 			cat("#", names(L)[i], "\n", file = file_name, append = TRUE)
-			write.table(L[[i]], , col = FALSE, row = FALSE, quote = FALSE, 
+			write.table(L[[i]], , col.names = FALSE, row.names = FALSE, quote = FALSE, 
 					file = file_name, append = TRUE)
 			cat("\n", file = file_name, append = TRUE)
 		}
