@@ -1,10 +1,11 @@
 Package: ADMButils
 Type: Package
 Title: Utilities to read and write files associated with AD Model Builder. 
-Version: 2.0.0
-Date: 2011-09-01
+Version: 3.0.1
+Date: 2011-10-01
 Author: Adam Cottrill
 Maintainer: Adam Cottrill <adam.cottrill@ontario.ca>
+Imports:coda
 Description: ADMButils contains a number of functions that read and write *.std, *.par, *.pin and *.dat files associated with AD Model Builder. 
 License:  GPL-2
 LazyLoad: yes

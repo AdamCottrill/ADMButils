@@ -19,12 +19,12 @@
 ##' @keywords misc
 ##' @export
 ##' @examples       
-##' My.file  <- "/home/Modelling/Documents/Documents.rdat"        
-##' (jj <- admbdir(My.file))    
-##' My.file2 <- "/home/Modelling/Documents/Documents"        
-##' (jj <- admbdir(My.file2))
-##' My.dir   <- "/home/Modelling/Documents"
-##' (jj <- admbdir(My.dir))    
+##' ## My.file  <- "/home/Modelling/Documents/Documents.rdat"        
+##' ## (jj <- admbdir(My.file))    
+##' ## My.file2 <- "/home/Modelling/Documents/Documents"        
+##' ## (jj <- admbdir(My.file2))
+##' ## My.dir   <- "/home/Modelling/Documents"
+##' ## (jj <- admbdir(My.dir))    
 ##'         
 ##' #current working directory is used if a fully specified path isn't
 ##' #provided
