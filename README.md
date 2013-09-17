@@ -1,6 +1,5 @@
 Utilities to read and write files associated with AD Model Builder.
 
-
 ADMButils contains a number of functions that read and write *.std, *.par,
 *.pin and *.dat files associated with AD Model Builder.
 
