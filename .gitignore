@@ -1,0 +1,6 @@
+ADMButils/*
+*.Rcheck*
+*/man/*
+*.zip
+*.tar.gz
+*.pdf

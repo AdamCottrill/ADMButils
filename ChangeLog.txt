@@ -1,0 +1,46 @@
+ADMButils Package Change Log
+
+===========================
+Version 2.0.1
+01 Sep 2011 15:47:58
+- added the functions read.fit(), orgpar(), orgfit().  Read.fit()
+  read a fitted models object and returns a named list.  The org*
+  functions take this named list and format it into org-mode format
+  and place it on the clipboard so that model results can be
+  summarized in e-macs orgmode buffers.
+
+===========================
+Version 2.0
+29 Apr 2011 15:11:58
+- all of the function have been "roxygeninzed" and are maintained in a
+  single directory "~/fcts".
+- an R-script "RoxygenizePkg.R" was created to document the packaging
+  building process.
+- no new functions or changes to existing functions where added in
+  this build.
+
+===========================
+Build 0.2
+Thu Nov 04 2010 14:21:43 
+- dat_write and pin_write replaced with write.dat and write.pin
+- write.dat contains a number of enhancements including the ability to
+  include data frames and an improved header.  
+- write.dat also allows the inclusion factors in dataframes, although
+  they are converted to numeric values for ADMB, documentation is
+  automatically included in dat file. 
+- Other than the name change, write.pin and pin_write are essentailly
+  the same functions.
+- *.rd files for write.dat and write.pin were updated and improved
+- TODO - change scaa.mcmc to 'admb.mcmc' and move to ADMButils.
+  scaa.mcmc could be maintained in ADMBscaa as a wrapper for
+  admb.mcmc, but admb.mcmc would be much more generic.  It could use
+  and document Arni Magnusson's code to automaticlly write out
+  variable names when mcmc iteration=1.  (see admb YaSnippet template).
+
+===========================
+Build 0.1
+Thursday, February 25, 2010.
+-all entries checked with ispell
+-example files moved to inst directory 
+-hardcoded paths to example files replaced with:
+	   system.file("Examples/FILENAME", package="ADMButils").
